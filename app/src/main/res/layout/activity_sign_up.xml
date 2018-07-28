@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.turbo.androidtutorial.SignUp"
+    android:background="#D0D3D4">
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="390dp" />
+
+    <EditText
+        android:id="@+id/emailID"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email iD"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="340dp" />
+
+    <EditText
+        android:id="@+id/phnum"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="290dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter User Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="240dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="190dp" />
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="140dp" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="70dp" />
+
+
+</android.support.constraint.ConstraintLayout>
